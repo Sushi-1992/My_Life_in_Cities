@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #d4e1ff;
+  text-align: center;
+  padding: 20px;
+  transition: background 0.6s;
+}
+
+h1 {
+  font-size: 36px;
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+p, h2 {
+  font-size: 20px;
+  margin: 6px;
+}
+
+#hint {
+  font-size: 24px;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 12px;
+}
+
+#hint img {
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+#message {
+  margin: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #003366;
+}
+
+#game-area {
+  width: 800px;
+  height: 450px;
+  background: white;
+  border: 3px solid #003366;
+  border-radius: 10px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.letter {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: grab;
+  user-select: none;
+  transition: transform 0.15s;
+}
+
+.letter:hover {
+  transform: scale(1.12);
+}
+
+#slots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.slot {
+  width: 55px;
+  height: 55px;
+  border: 2px dashed #003366;
+  border-radius: 8px;
+  background: #e8f0ff;
+  font-size: 28px;
+  font-weight: bold;
+  color: #003366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset-btn {
+  background: #003366;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#reset-btn:hover {
+  background: #002145;
+  transform: translateY(-2px);
+  transition: 0.1s;
+}
+
+.slot.filled {
+  background: #ccffdd;
+  border: 2px solid #009966;
+}
