@@ -55,6 +55,6 @@ Open index.html in a browser,
 (or open with VS Code Live Server for auto-refresh).
 
 LIVE DEMO:
-https://YOUR-USERNAME.github.io/my-life-in-cities/
+https://sushi-1992.github.io/My_Life_in_Cities/
 VIDEO DEMO:
-https://youtu.be/TBD
+
