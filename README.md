@@ -1,7 +1,7 @@
 # My Life in Cities - Word Puzzle
 #### Video Demo: https://youtu.be/TBD
 Play the game here:
-https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+https://sushi-1992.github.io/My_Life_in_Cities/
 
 #### Description:
 
