@@ -1,5 +1,8 @@
 # My Life in Cities - Word Puzzle
 #### Video Demo: https://youtu.be/TBD
+Play the game here:
+https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+
 #### Description:
 
 My Life in Cities is a browser-based drag-and-drop word puzzle game created for my CS50 final project. The theme is personal, based on cities I have lived in during different stages of my life, which gives the project meaning beyond just being a programming exercise. The primary goal of the game is to drag moving letters on the screen into correctly ordered slots to spell the current city. Once the player completes the word, the game plays a short sound effect, shows confetti, increases the score, and loads the next city while the timer continues to run. There are multiple cities to complete, and finishing them all gives a final score based on progress and speed.
